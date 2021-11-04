@@ -38,7 +38,11 @@ const Form1 = ({ nextStep, values, handleChange, handleClick, handleDate }) => {
 
   return (
     <div>
-      <h4 style={{ color: "purple", marginBottom: "20px" }}>What Do You Do?</h4>
+      <h4
+        style={{ color: "purple", marginBottom: "20px", overflowY: "hidden" }}
+      >
+        What Do You Do?
+      </h4>
       <div className={`${styles.form1} row`}>
         {/* PAID EMPLOYMENT */}
         <div className={`${styles.col} col-md-4`}>

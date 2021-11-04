@@ -24,7 +24,10 @@ export default function Home() {
               <div className={`${styles.col1} pt-5 container col-md-6`}>
                 <div className={styles.overlay}></div>
                 <div style={{ position: "relative" }} className="container">
-                  <h5 className=" text-white text-start">
+                  <h5
+                    style={{ overflowY: "hidden" }}
+                    className=" text-white text-start"
+                  >
                     &#8592; &nbsp;Back To Store
                   </h5>
                   <div className="text-center" style={{ marginTop: "17rem" }}>
@@ -37,6 +40,7 @@ export default function Home() {
                       style={{
                         marginTop: "0 !important",
                         fontFamily: "'DM Sans', sans-serif !important",
+                        overflowY: "hidden",
                       }}
                       className="text-white"
                     >
