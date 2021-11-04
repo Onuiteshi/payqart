@@ -153,7 +153,7 @@ const Form2 = ({ prevStep, handleChange, handleClick, values, submit }) => {
                   <p className="fs-7 text-white fw-bold mt-2 ">
                     Customize Down <br /> Payment
                   </p>
-                  <div class="input-group shadow rounded mt-2">
+                  <div clasNames="input-group shadow rounded mt-2">
                     <span
                       style={{ color: "purple" }}
                       className="input-group-text "
@@ -162,7 +162,7 @@ const Form2 = ({ prevStep, handleChange, handleClick, values, submit }) => {
                     </span>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       aria-label="Amount (to the nearest dollar)"
                     />
                   </div>
